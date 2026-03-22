@@ -2,11 +2,8 @@ package week01.session2;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.HashMap;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Scanner;
-import java.util.TreeSet;
 
 public class P1_7785_회사에있는사람 {
 	public ArrayList<String> solution(int n, String[] input) {
