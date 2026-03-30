@@ -8,8 +8,6 @@ import java.util.Arrays;
 
 public class P1_1431_시리얼번호 {
 	public String[] solution(int n, String[] input) {
-		String[] answer = new String[n];
-
 		Arrays.sort(input, (a, b) -> {
 			int sumA = 0, sumB = 0;
 			if (a.length() != b.length()) {
